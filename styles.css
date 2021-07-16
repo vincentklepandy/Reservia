@@ -4,8 +4,11 @@ html{
 }
 
 body{
+    margin: 0;
+}
+.main{
     max-width: 1440px;
-    margin: auto;
+    margin: auto; 
 }
 
 header{
@@ -29,7 +32,6 @@ header{
 }
 
 .navbar{
-    list-style-type: none;
     display: flex;
     align-items: center;
 }
@@ -74,7 +76,7 @@ header{
 .searchbar{
     display: inline-flex;
     overflow: auto;
-    margin-top: 30px;
+    margin: 30px auto;
 }
 
 .loc{
@@ -111,6 +113,7 @@ header{
 }
 
 .filters{
+    margin: 10px auto;
     display: flex;
 }
 
@@ -122,14 +125,16 @@ header{
 .filterbtn{
     border-radius: 30px;
     width: auto;
+    border: solid 2px green;
     border-color: #d9d9d9;
     box-shadow: none;
     background-color: white;
     display: inline-flex;
     margin: auto 1%;
+
 }
 
-.filtretxt{
+.filtretxt,.herbejh2{
     color:black;
     font-size: 20px;
     display: flex;
@@ -137,7 +142,7 @@ header{
 }
 
 .icofiltre{
-    background-color: cornflowerblue;
+    background-color: rgb(198, 218, 255);
     padding: 10px;
     height: 30px;
     width: 30px;
@@ -145,4 +150,69 @@ header{
     display: flex;
     position: relative;
     left: -13px;
+}
+
+.resultTxt{
+    display: flex;
+    align-items: center;
+}
+
+.icoinfo{
+    background-color: #FFFFFF;
+    padding: 10px;
+    border: solid 2px #F2F2F2;
+    border-radius: 30px;
+    margin: 20px 0;
+}
+
+.infotxt{
+    display: flex;
+    margin: auto 20px;
+}
+
+.hebergement{
+  
+    align-content: center;
+}
+
+.foundHebergement{
+    display: inline-flex;
+    background-color: #F2F2F2;
+    padding: 10px;
+    border: solid 1px none;
+    border-radius: 30px;
+}
+footer{
+    margin-top: 80px;
+    background-color: #F2F2F2;
+    width: 100%;
+    justify-content: center;
+}
+
+.container{
+    align-content: stretch;
+    max-width: 1440px;
+    margin:auto;
+    display:flex;
+}
+.ftercontainer{
+    padding: 30px;
+    width: 30%;
+}
+
+.help{
+    padding: 0;
+}
+.fter-item{
+    list-style-type: none;
+    margin: 20px;
+    margin-left: 0;
+}
+.fterlnk{
+    color: black;
+    text-decoration: none;
+}
+.fterlnk:hover{
+    color: #0065FC;
+    text-decoration: underline;
 }
