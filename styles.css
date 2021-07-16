@@ -74,6 +74,7 @@ header{
 .searchbar{
     display: inline-flex;
     overflow: auto;
+    margin-top: 30px;
 }
 
 .loc{
@@ -90,11 +91,7 @@ header{
 
 .searchinput{
     border-style: none;
-    text-align:start;
-
     padding-left:30px;
-    box-sizing: border-box;
-    display: flex;
     width: 250px;
 }
 
@@ -103,9 +100,49 @@ header{
     border-style: none;
     width: 150px;
     border-radius:0 15px 15px 0;
+    
 }
+
+
 .searchtxt{
     font-size: 20px;
     color:white;
 
+}
+
+.filters{
+    display: flex;
+}
+
+.filtreh2{
+    margin: auto 2em auto 0;
+    
+}
+
+.filterbtn{
+    border-radius: 30px;
+    width: auto;
+    border-color: #d9d9d9;
+    box-shadow: none;
+    background-color: white;
+    display: inline-flex;
+    margin: auto 1%;
+}
+
+.filtretxt{
+    color:black;
+    font-size: 20px;
+    display: flex;
+    align-items:center;
+}
+
+.icofiltre{
+    background-color: cornflowerblue;
+    padding: 10px;
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    display: flex;
+    position: relative;
+    left: -13px;
 }
