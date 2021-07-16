@@ -175,13 +175,58 @@ header{
     align-content: center;
 }
 
-.foundHebergement{
+.HebergementContent{
     display: inline-flex;
     background-color: #F2F2F2;
     padding: 10px;
     border: solid 1px none;
     border-radius: 30px;
 }
+
+
+
+
+.activContainer{
+
+align-content: flex-start;
+
+}
+
+.actLnk{
+    text-decoration: none;
+    margin: 0;
+    display: inline-flex;
+
+}
+
+.activContent{  
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 20px #c0c0c0;
+    border-radius:  20px;
+}
+
+.activImage{
+    width: 360px;
+    border-radius:  20px 20px 0 0;
+}
+
+.titreactiv{
+    margin: 0;
+    padding: 15px;
+    color: black;
+    background-color: #F2F2F2;
+    border-radius: 0 0 20px 20px;
+}
+
+
+/*footer*/
+
+.ftercontainer{
+    padding: 30px;
+    width: 30%;
+}
+
 footer{
     margin-top: 80px;
     background-color: #F2F2F2;
@@ -194,10 +239,6 @@ footer{
     max-width: 1440px;
     margin:auto;
     display:flex;
-}
-.ftercontainer{
-    padding: 30px;
-    width: 30%;
 }
 
 .help{
