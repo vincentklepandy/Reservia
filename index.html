@@ -9,62 +9,77 @@
 </head>
 
 <body>
-    <header>
-        <nav class="navbar">
-            <div id="main" class="logo">
-                <a href="#top" ><img class="logo-image" src="svg/reservia_logo.svg" alt="Reservia"></a>
-            </div>
-            <div class="navbar-collapse">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link pl-5 px-lg-2 " href="#herberge">Herbergement</a></li>
-                    <li class="nav-item"><a class="nav-link pl-5 px-lg-2 " href="#activité">Activités</a></li>
-                    <li class="nav-item"><a class="nav-link pl-5 px-lg-2 " href="#signin">S'inscrire</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
+    <div class="main">
+        <header>
+            <nav class="navbar">
+                <div id="main" class="logo">
+                    <a href="#top" ><img class="logo-image" src="svg/reservia_logo.svg" alt="Reservia"></a>
+                </div>
+                <div class="navbar-collapse">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link pl-5 px-lg-2 " href="#herberge">Herbergement</a></li>
+                        <li class="nav-item"><a class="nav-link pl-5 px-lg-2 " href="#activité">Activités</a></li>
+                        <li class="nav-item"><a class="nav-link pl-5 px-lg-2 " href="#signin">S'inscrire</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
 
    <!-- Section 1 recherche -->
 
-   <section id="recherche">
-       <div class="txt">
-           <h1 class="grotitr">Trouvez votre hébergement pour des vacances de rêve</h1>
-           <h4 class="ptititre">En plein centre de ville ou en pleine nature</h4>
-       </div>
-       <form class="searchbar" action="search.html">
-            <span class="locico"> <img class="loc" src="svg/loc.svg" alt="loc"></span>
-            <input type="search" class="searchinput" placeholder="Ville,Pays">
-            <button class="searchsubmit">
-                <span class="searchtxt">Rechercher</span>
-            </button>
-       </form>
-       <div class="filters">
-            <h2 class="filtreh2">Filtres</h2>
-            <button class="filterbtn">
-            <img class="icofiltre" src="svg/billet.svg" alt="loc">
-            <span class="filtretxt">Economique</span>
-            </button>
-            <button class="filterbtn">
-                <img class="icofiltre" src="svg/guy.svg" alt="loc">
-                <span class="filtretxt">Familial</span>
-            </button>
-            <button class="filterbtn">
-                <img class="icofiltre" src="svg/coeur.svg" alt="loc">
-                <span class="filtretxt">Romantique</span>
-            </button>
-            <button class="filterbtn">
-                <img class="icofiltre" src="svg/hrs.svg" alt="loc">
-                <span class="filtretxt">Animaux autorisés</span>
-            </button>
-       </div>
-   </section> 
+    <section id="recherche">
+        <div class="txt">
+            <h1 class="grotitr">Trouvez votre hébergement pour des vacances de rêve</h1>
+            <h4 class="ptititre">En plein centre de ville ou en pleine nature</h4>
+        </div>
+        <form class="searchbar" action="search.html">
+                <span class="locico"> <img class="loc" src="svg/loc.svg" alt="loc"></span>
+                <input type="search" class="searchinput" placeholder="Ville,Pays">
+                <button class="searchsubmit">
+                    <span class="searchtxt">Rechercher</span>
+                </button>
+        </form>
+            <div class="filters">
+                    <h2 class="filtreh2">Filtres</h2>
+                    <button class="filterbtn">
+                    <img class="icofiltre" src="svg/billet.svg" alt="loc">
+                    <span class="filtretxt">Economique</span>
+                    </button>
+                    <button class="filterbtn">
+                        <img class="icofiltre" src="svg/guy.svg" alt="loc">
+                        <span class="filtretxt">Familial</span>
+                    </button>
+                    <button class="filterbtn">
+                        <img class="icofiltre" src="svg/coeur.svg" alt="loc">
+                        <span class="filtretxt">Romantique</span>
+                    </button>
+                    <button class="filterbtn">
+                        <img class="icofiltre" src="svg/hrs.svg" alt="loc">
+                        <span class="filtretxt">Animaux autorisés</span>
+                    </button>
+            </div>
+            <div class="resultTxt">
+                <img class="icoinfo" src="svg/info.svg" alt="loc">
+                <span class="infotxt"><!-- ajout de la phrase resultat trouvés --> il y a *** logements trouvés</span>
+            </div>
 
-
+        </section> 
    <!-- Section 2 herbergement -->
 
-   <section id="herbergement">
+        <section class="hebergement" id="hebergement">
+            <div class="foundHebergement">
+                <h2 class="heberjh2"><!--ajout de la phrase: Herbergement a (ville)-->Herbergement a</h2>
+                <div class="resulth">
 
-   </section>
+                </div>
+            </div>
+            <div class="foundHebergement">
+                <h2 class="heberjh2"><!--ajout de la phrase si found: les plus populaires-->les plus populaires</h2>
+                <div class="resulth">
+                
+                </div>
+            </div>
+        </section>
 
 
    <!-- Section 3 Activités -->
@@ -72,10 +87,34 @@
    <section id="Activités">
    </section>
 
-   <footer>
+    </div>
 
-   </footer>
-
+    <footer>
+        <div class="container">
+            <div class="ftercontainer">
+                <h2>A Propos</h2>
+                <ul class="help">
+                    <li class="fter-item"><a class="fterlnk" href="#">Fonctionnement du site</a></li>
+                    <li class="fter-item"><a class="fterlnk" href="#">Conditions générales de vente</a></li>
+                    <li class="fter-item"><a class="fterlnk" href="#">Données et confidentialités</a></li>
+                </ul>
+            </div>
+            <div class="ftercontainer">
+                <h2>Nos hébergement</h2>
+                <ul class="help">
+                    <li class="fter-item"><a class="fterlnk" href="#">Charte qualité</a></li>
+                    <li class="fter-item"><a class="fterlnk" href="#">Soumettre votre hotel</a></li>
+                </ul>
+            </div>
+            <div class="ftercontainer">
+                <h2>Assistance</h2>
+                <ul class="help">
+                    <li class="fter-item"><a class="fterlnk" href="#">Centre d'aide</a></li>
+                    <li class="fter-item"><a class="fterlnk" href="#">Nous contacter</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 
 </body>
 </html>
