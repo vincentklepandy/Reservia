@@ -196,8 +196,20 @@ align-content: flex-start;
     text-decoration: none;
     margin: 0;
     display: inline-flex;
-
+    -webkit-transition: .2s ease-in-out;
+	transition: .2s ease-in-out;
+    
 }
+.actLnk:hover{
+    -webkit-transform:scale(1.02); /*  
+    -moz-transform:scale(1.05);  Firefox 
+    -ms-transform:scale(1.05);  IE 9 
+    -o-transform:scale(1.05);  Oper */
+     transform:scale(1.02);
+     -webkit-transition: .2s ease-in-out;
+	transition: .2s ease-in-out;
+}
+
 
 .activContent{  
     display: flex;
@@ -208,6 +220,8 @@ align-content: flex-start;
 
 .activImage{
     width: 360px;
+    height: 280px;
+    object-fit:cover;
     border-radius:  20px 20px 0 0;
 }
 
